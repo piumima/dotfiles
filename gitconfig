@@ -1,0 +1,7 @@
+[user]
+	email = piumi.abeynayaka@carleton.ca
+	name = Piumi Abeynayaka
+[core]
+	editor = vim
+[push]
+	default = simple
