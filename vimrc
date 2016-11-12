@@ -103,6 +103,7 @@ endif
 
 set tabstop=2
 set shiftwidth=2
+set expandtab
 set background=dark
 set term=screen-256color
 
@@ -121,8 +122,3 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
-nnoremap <c-H> <c-w>H
-nnoremap <c-S-J> <c-w><S-J>
-nnoremap <c-S-K> <c-w><S-K>
-nnoremap <c-S-H> <c-w><S-H>
-nnoremap <c-S-L> <c-w><S-L>
