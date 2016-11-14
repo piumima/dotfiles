@@ -28,6 +28,8 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 " autoclose
 Plugin 'Townk/vim-autoclose'
+" Vim Tmux Navigator
+Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
