@@ -166,7 +166,7 @@ nnoremap <CR> :noh<CR><CR>
 "
 " The matchit plugin makes the % command work better, but it is not backwards
 " compatible.
-packadd matchit
+"packadd matchit
 
 " This remaps keys for navigating/manipulating vim panes so it's only necessary to
 " enter Ctrl and the key (W is no longer needed)
