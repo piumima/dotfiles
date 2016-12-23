@@ -119,3 +119,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PS1="\[\e[31;1m\]\u\[\e[m\]@\[\e[32;1m\]\h:\[\e[m\]\[\e[33;1m\]\w\[\e[m\]\n\\$ "
