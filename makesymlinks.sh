@@ -8,6 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
+vimbackup=~/.vim/.backup          # vim backup directory
 files="bashrc vimrc gitconfig bash_aliases tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
@@ -15,6 +16,11 @@ files="bashrc vimrc gitconfig bash_aliases tmux.conf"    # list of files/folders
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
+echo "...done"
+
+# create vim backup folder
+echo "Creating $vimbackup for backup of vim files in central location"
+mkdir -p $vimbackup
 echo "...done"
 
 # change to the dotfiles directory
