@@ -101,9 +101,11 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
+alias home='cd /mnt/c/Users/Piumi'
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f $HOME/.bash_aliases ]
+then
+    . $HOME/.bash_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -117,3 +119,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PS1="\[\e[31;1m\]\u\[\e[m\]@\[\e[32;1m\]\h:\[\e[m\]\[\e[33;1m\]\w\[\e[m\]\n\\$ "
